@@ -1,0 +1,30 @@
+DataTypes:
+    Are the categorization or classification of data items
+    It represents the kind of value that tells what operations can be performed on a parrticular data
+
+Built in DataTypes:
+    Numeric Integer,float and complex
+    Sequence type: string,list and tuple
+    Boolean
+    Set
+    Dictonary
+
+#Mutable Object : mutable objects can chane their state or content
+#eg : list,dict,set
+
+Immutable objects : cant change their contennt or state
+#eg:int,float,bool,string,tuple
+
+#list:
+->mutable objects
+->is a sequence data type which is used to store collection data
+->ordered
+
+#tuple
+-> immutable object
+-> used to store the values
+-> ordered
+
+#string 
+-> Sequence of Character
+-> we can create a string using quote,double quote or for multiline statement triple quote

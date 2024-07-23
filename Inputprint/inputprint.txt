@@ -1,0 +1,34 @@
+print() and input() -> built-in function
+print() function
+-> is used to get the output
+-> used to display the specified message on the screen or other std o/p screen
+
+input() function
+
+
+>>> 25/5 (Division)
+
+5.0  -> return in float
+
+>>> 25// ->(floor Division)
+
+5 -> return in integer
+
+>>> 24/5
+
+4.8
+
+>>> 24//5
+
+4
+
+>>> 25%5
+
+0
+
+>>> 2**3
+
+8
+
+>>>
+ 

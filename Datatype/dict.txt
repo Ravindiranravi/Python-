@@ -1,0 +1,3 @@
+Dictionary
+-> a Dictionary is a collection of key:value pair
+-> here,
