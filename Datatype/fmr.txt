@@ -11,3 +11,10 @@ filter(function, iterable)
 -> this function can take any number of arguments but only one expression,which is evaluated and returned
 
 Syntax :lamda arguments:expression 
+
+map() function returns a map object(which is an iterator) of the results
+after applying the given function to ecah item of a given iterable(list,tuple)
+or allows you to process and transform all the items 
+in the iterable without using an expilcit for loop a technique commonly known as mapping
+
+map(function,iterable,[iterable1,iterable2]......)

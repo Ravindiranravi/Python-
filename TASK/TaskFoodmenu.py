@@ -37,22 +37,22 @@ def main():
         print("4. Remove item from menu card")
         print("5. Exit")
 
-        choice = input("\nEnter your choice (1-5): ")
+        order = input("\nEnter your choice (1-5): ")
 
-        if choice == '1':
+        if order == '1':
             display_menu(menu_card)
-        elif choice == '2':
+        elif order == '2':
             add_item = input("Enter the new item to add: ")
             add_price = int(input(f"Enter the price for {add_item}: "))
             menu_card = add_function(menu_card, add_item, add_price)
-        elif choice == '3':
+        elif order == '3':
             update_item = input("Enter the item to update: ")
             update_price = int(input(f"Enter the updated price for {update_item}: "))
             menu_card = update_function(menu_card, update_item, update_price)
-        elif choice == '4':
+        elif order == '4':
             remove_item = input("Enter the item to remove: ")
             menu_card = delete_function(menu_card, remove_item)
-        elif choice == '5':
+        elif order == '5':
             print("\nExiting the program.")
             break
         else:
