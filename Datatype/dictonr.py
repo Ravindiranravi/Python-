@@ -17,7 +17,7 @@
 #     'Cartier':8000
 # }
 # print('Length :',len(watch_details))
-# print('Type :',type(watch_details))
+# print('Type :',type(watch_details))b      
 # print('using key :',watch_details['Titan'])
 # print('using key :',watch_details['Cartier'])
 # print(watch_details)
