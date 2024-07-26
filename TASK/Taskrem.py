@@ -7,7 +7,7 @@ def file_to_delete(file_name):
     print("File removed....")
 
 def main():
-    remfile = input('Enter the File Name')
-    file_to_delete(remfile)
+    file_name = input('Enter the File Name')
+    file_to_delete(file_name)
 if __name__ == "__main__":
     main()
